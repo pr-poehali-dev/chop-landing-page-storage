@@ -7,18 +7,18 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-white font-roboto">
       {/* Navigation */}
-      <nav className="bg-primary text-white py-4 px-6">
+      <nav className="bg-[#4A90E2] text-white py-4 px-6">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <div className="flex items-center space-x-4">
-            <Icon name="Shield" size={32} className="text-white" />
-            <div>
-              <h1 className="text-xl font-bold">СЕРВИС БЕЗОПАСНОСТИ</h1>
-              <p className="text-lg font-semibold">ЕДИНСТВО</p>
-            </div>
+            <img 
+              src="https://cdn.poehali.dev/files/000bcdfd-84cf-4a85-bc7c-e27c4df30253.png" 
+              alt="Логотип ЧОП Единство" 
+              className="h-12 w-auto"
+            />
           </div>
           <div className="flex items-center space-x-6">
-            <span className="text-sm">+7 903 518-7880</span>
-            <span className="text-sm">ECHOP.RU</span>
+            <span className="text-lg font-medium">+7 903 518-7880</span>
+            <span className="text-lg font-medium">ECHOP.RU</span>
           </div>
         </div>
       </nav>
